@@ -8,9 +8,12 @@ module.exports = {
         'footer-texture': "url('/img/footer-texture.png')",
       },
       fontFamily: {
-        'Monsterrate':'Montserrat',
-        'Vollkorn':'Vollkorn',
-      },
+        Monsterate:'Montserrat',
+        Vollkorn: "'Vollkorn','serif'",
+        Source_sans_pro:"'Source Sans Pro','sans-serif'"
+
+        
+        },
       fontSize:
       {
           'heading':'1.6rem',

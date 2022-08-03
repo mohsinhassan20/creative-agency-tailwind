@@ -8,10 +8,10 @@
     <title>Tailwind css</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="my-5">
        <!--Background image and carousel section-->
   
-       <img src="./images/slide2.jpg" alt="" class="w-80 h-screen  relative  pl-5 pr-5 pt-5  ">
+       <img src="./images/slide2.jpg" alt="" class="w-80 h-screen  relative  pl-5 pr-5   ">
     
     <!--Navigatiuon Section-->
         <!--Header-logo-->
@@ -215,7 +215,7 @@
 <div class="w-50  h-80 flex-col justify-center items-center mt-3 pl-5 pr-5 bg-zinc-100">
   <div class="flex-col justify-center items-center mt-3 pl-5 pr-5">
     <img src="./images/branding3.svg" alt="" class="w-32 h-32 ml-8"/>
-    <h1 class="text-service-heading text-figure_heading-600 leading-tight font-Monsterrate font-bold tracking-tighter relative bottom-2 ml-8">Graphic Design</h1>
+    <h1 class="text-service-heading text-figure_heading-600 leading-tight font-Monsterrate font-bold whitespace-nowrap  relative bottom-1  ">Graphic Design</h1>
     <p class="text-center text-paragraph_size text-services_paragraph-300 relative right-12 p-3  w-[300px]">
       Focus infographic venture business model canvas gamification
       ecosystem. Business plan gamification user experience low hanging
@@ -233,9 +233,195 @@
 
   </div>
 
+<!--Quotes Section-->
+
+<div class="flex flex-col w-68 h-auto justify-center align-center  mx-5 my-10">
+  <h1 class="text-service-heading text-figure_heading-600  font-Monsterrate font-bold text-center leading-none tracking-tighter ">Our clients <br />love our work</h1>
+  <h5 class="font-Vollkorn italic text-center text-sm">But don't just take our word for it...</h5>
+
+  <div class="flex flex-col justify-center items-center mt-5">
+    <h2 class="font-Source_sans_pro italic text-center whitespace-normal">
+      “I don’t like people, but I make an exception for ABC Agency.
+      They’re pretty damn cool.”
+    </h2>
+    <h3 class="font-Source_sans_pro italic text-center whitespace-normal">Brian Jones, America Big Corporation</h3>
+  </div>
+
+</div>
 
 
+    <!--portfolio-->
+    <div class="grid grid-cols-2 gap-4 p-5">
+  <!--box1-->
+      <div class="flex flex-col justify-center items-start">
+        <h1 class="text-service-heading leading-5 text-figure_heading-600  font-Monsterrate font-bold text-left leading-none tracking-tighter ">
+          Latest <br />
+          creations
+        </h1>
+        <h5 class="font-Vollkorn italic  text-figure_heading-600 text-left text-sm ">We make beautiful things</h5>
+        <p class=" hidden">
+          Focus infographic venture business model canvas gamification
+          ecosystem. Business plan gamification user experience low hanging
+          fruit twitter. Metrics research & development market paradigm shift
+          growth hacking.
+        </p>
+      </div>
+  <!--box2-->
+      <div>
+        <img src="./images/pf-1.jpeg" alt="" class="w-32 h-32"/>
+      </div>
+  <!--box3-->
+      <div>
+        <img src="./images/pf-2.jpeg" alt="" class="w-32 h-32"/>
+      </div>
+  <!--box4-->
+      <div>
+        <img src="./images/f-3.jpeg" alt="" class="w-32 h-32"/>
+      </div>
+  <!--box5-->
+      <div>
+        <img src="./images/pf-8.jpg" alt="" class="w-32 h-32"/>
+      </div>
+  <!--box6-->
+      <div>
+        <img src="./images/pf-4.jpg" alt="" class="w-32 h-32" />
+      </div>
+  <!--box7-->
+      <div>
+        <img src="./images/pf-5.jpg" alt="" class="w-32 h-32"/>
+      </div>
+  <!--box8-->
+      <div>
+        <img src="./images/pf-6.jpg" alt="" class="w-32 h-32" />
+      </div>
+  
+    </div>
+  <!--Portfolio ends-->
 
+  <!--contact section-->
+    <!--contact-->
+    <section>
+  
+      <div class="flex flex-col justify-center items-center"  >
+        <h2 class="text-service-heading text-figure_heading-600  font-Monsterrate font-bold text-center leading-none tracking-tighter ">
+          Write us a letter
+        </h2>
+        <h5 class="font-Vollkorn italic text-center text-sm">
+          We appreciate your ideas
+        </h5>
+  
+        <form 
+          class="flex flex-col "
+        name="email-form" 
+        data-name="Email Form"
+        >
+
+
+          <label
+           for="name" class="font-Monsterate uppercase text-sm font-bold text-center"> Name</label>
+          <input
+          class="W-60 h-10 border-2 p-2 text-sm"
+           type="text"
+            placeholder="Enter your name" 
+            name="name" 
+            data-name="Name" 
+            />
+ 
+            <label
+            for="name" class="font-Monsterate uppercase text-sm font-bold text-center"> Email Address</label>
+           <input
+           class="W-60 h-10 border-2 p-2 text-sm"
+            type="text"
+             placeholder="Enter your email address" 
+             name="name" 
+             data-name="Name" 
+             />
+ 
+             <label
+             for="name" class="font-Monsterate uppercase text-sm font-bold text-center">Your Message</label>
+           
+          <textarea 
+          class="w-72 h-16 border-2 p-2 text-sm"
+           
+          type="email"
+          placeholder="Example Text"
+            name="email"
+             data-name="Email"
+              required="required">
+            </textarea>
+          
+          <input 
+          class="border-2 border-black w-28 h-14 self-center my-10 bg-[#ffffff]  text-[12px] font-Monsterate"
+          type="submit"
+           value="Submit"
+            data-wait="Please wait..." />
+          
+          </form>
+  
+      </div>
+    </section>
+<!-- contact section ends -->
+    <!-- footer section starts-->
+    
+
+    
+ 
+      <footer class="bg-[#242424] w-64 mx-10 flex flex-col justify-center items-center h-auto py-5">
+  
+        <!--footer logo-->
+  
+        <a href="#" >
+          <img
+            src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/5527f403715879bc5767fce1_hipster-white.png"  class="w-20 h-20 m-10"/>
+        </a>
+  
+  
+        <div class="text-center">
+          <h6 class="font-bold text-[#5c5c5c] mb-5 ">MENU</h6>
+          <p class="text-white text-center text-[12px] font-light  leading-7">
+  
+            <a  href="#about">ABOUT</a>
+  
+            <br />
+  
+            <a  href="#services"   >SERVICES</a>
+  
+            <br />
+  
+            <a   href="#portfolio">PORTFOLIO</a>
+  
+            <br />
+            <a  href="#contact">CONTACT</a>
+          </p>
+        </div>
+  
+  
+        <div class="text-center">
+  
+          <h6 class="font-bold text-[#5c5c5c] my-5">ADDRESS</h6>
+          <p class="text-white text-center text-[12px] font-light  leading-7">
+            Suite #913<br />Corporation Building<br />Tibb Street<br />Manchester<br />M1
+            1TA
+          </p>
+  
+        </div>
+  
+        <div class="text-center">
+          <h6 class="font-bold text-[#5c5c5c] my-5">CONTACT</h6>
+          <p class="text-white text-center text-[12px] font-light leading-7">
+            E: info(at)youragency.com<br />T: +44 800 123 456<br />F: +44 800
+            123 400
+          </p>
+  
+        </div>
+  
+  
+  
+  
+      </footer>
+  
+ 
+  
   </body>
   
 

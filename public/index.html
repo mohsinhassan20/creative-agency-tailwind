@@ -11,7 +11,7 @@
 <body class="my-5">
        <!--Background image and carousel section-->
   
-       <img src="./images/slide2.jpg" alt="" class="w-80 h-screen  relative  pl-5 pr-5  sm:w-96 sm:h-screen">
+       <img src="./images/slide2.jpg" alt="" class="w-80 h-screen  relative  pl-5 pr-5  sm:min-w-full sm:h-screen">
     
     <!--Navigatiuon Section-->
         <!--Header-logo-->
@@ -31,7 +31,8 @@
   
         </span>
         <!--mobile icon-->
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-9 left-64 text-white"  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <svg xmlns="http://www.w3.org/2000/svg" 
+        class="h-5 w-5 absolute top-9 left-64 text-white sm:absolute sm:top-11 sm:left-[580px]"  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
      
@@ -44,12 +45,12 @@
           
              <!--Header line-->
         <div class="text-white    right-7   absolute top-36 flex-col  items-center justify-center ">
-            <h1 class="font-Monsterate text-3xl tracking-tighter text-right relative right-4 font-extrabold" >
+            <h1 class="font-Monsterate text-3xl tracking-tighter sm:text-right sm:relative sm:right-4 font-extrabold sm: text-4xl sm:top-7"  >
               You need  <br />
               a good partner
             </h1>
             <!---->
-            <h3 class="italic font-serif relative right-5 tracking-tighter font-light text-sm">
+            <h3 class="italic font-serif relative right-5 tracking-tighter font-light text-sm sm:top-8 sm:text-[17px] sm:ml-3">
               Let us help you realise your true potential
             </h3>
         
@@ -67,7 +68,7 @@
       <!--About container-->
       <section>
 
-      <div  class="w-70  flex-col h-autom-5">
+      <div  class="w-70  flex-col h-autom-5  w-screen ">
   
         <div class="w-70  flex-col justify-center items-center mt-5 hidden">
           <img src=" ./images/card1.jpeg" alt="" class="hidden" />
@@ -75,7 +76,7 @@
   
       <!--card2-->
       <div class="w-70  h-auto flex-col justify-center items-center mt-5 mx-5">
-        <div class="flex-col justify-center  items-center bg-zinc-100 py-5 ">
+        <div class="flex-col flex justify-center  items-center bg-zinc-100 py-5 sm:flex">
           <h2 class="font-Monsterate text-2xl pt-3 text-[#333] text-center font-bold tracking-tighter leading-7">Creative <br />
             & fresh</h2>
           <h5 class="font-Vollkorn italic text-[#333] text-center pt-1">Our digital agency</h5>
@@ -87,17 +88,17 @@
             investor alpha. Social proof lean startup alpha scrum project
             non-disclosure agreement.
           </p>
-          <a href="#" ><button class="h-[55px] w-44  ml-16 border-2 border-black text-[#333] text-sm font-light" >VIEW PORTFOLIO</button></a>
+          <a href="#" ><button class="h-[55px] w-44  border-2 border-black text-[#333] text-sm font-light" >VIEW PORTFOLIO</button></a>
         </div>
       </div>
       <!--card3-->
       
       <div class="w-70  h-auto flex-col justify-center items-center mt-5 mx-5">
-        <div class="flex-col h-auto justify-center  items-center bg-zinc-100 py-5  ">
+        <div class="flex-col flex h-auto justify-center  items-center bg-zinc-100 py-5  sm:flex">
           <h2 class="font-Monsterrate text-2xl pt-3 text-[#333] text-center font-bold tracking-tighter leading-7">Hip <br />
             & Funky</h2>
           <h5 class="font-Vollkorn italic text-[#333] text-sm text-center pt-1">We try new things</h5>
-          <p class="text-center font-sans max-w-xs text-sm p-2 text-[#5c5c5c] ">
+          <p class="text-center font-sans text-[13px] text-sm p-2 text-[#5c5c5c]">
             Focus infographic venture business model canvas gamification
             ecosystem. Business plan gamification user experience low hanging
             fruit twitter. Metrics research & development market paradigm shift
@@ -105,14 +106,14 @@
             investor alpha. Social proof lean startup alpha scrum project
             non-disclosure agreement.
           </p>
-          <a href="#"  ><button class="h-[55px] w-44  ml-16 border-2 border-black text-[#333] text-sm font-light" >VIEW PORTFOLIO</button></a>
+          <a href="#"  ><button class="h-[55px] w-44   border-2 border-black text-[#333] text-sm font-light" >VIEW PORTFOLIO</button></a>
         </div>
       </div>
       
       <!--card4-->
-      <div class="w-70 h-40 flex-col justify-center items-center mt-5 mb-5 mx-5">
-        <img src="./images/card4.jpeg" alt=""  />
-      </div>
+      <div class="w-70 h-40 flex-col justify-center items-center mt-5 mb-5 mx-5 sm:w-fit h-fit object-scale-down">
+        <img src="./images/card4.jpeg" alt="" class="h-[250px] w-[600px]" />
+      </div> 
     </div>
   </section>
  
@@ -120,31 +121,31 @@
 
      <!--Figures-->
      <section>
-    <div class="grid grid-cols-2 gap-5 my-10 mx-5 pt-12 ">
+    <div class="grid grid-cols-2 gap-5 my-10 mx-5 pt-12 sm:grid sm:grid-cols-2 sm:ml-10 ">
   
-      <div class="flex-col justify-start items-start ">
-        <h2 class="text-center font-Monsterrate font-bold text-figure_heading-600 text-3xl">342</h2>
+      <div class="flex-col flex justify-center items-center   sm:flex sm:flex-col sm:justify-start sm:items-start  ">
+        <h2 class="text-center font-Monsterrate font-bold text-figure_heading-600 text-3xl items-center">342</h2>
         <h5 class="text-center font-Vollkorn  italic font-light text-figure_heading-600 text-sm ">Cups of coffee</h5>
       </div>
 
 
-      <div class="flex-col justify-center items-center ">
-        <h2 class="text-center font-Monsterrate font-bold text-figure_heading-600 text-3xl">756</h2>
-        <h5 class="text-center font-Vollkorn  italic font-light text-figure_heading-600 text-sm">Bicycle kilometers</h5>
+      <div class="flex-col justify-center items-center sm:text-left ">
+        <h2 class="text-center font-Monsterrate font-bold text-figure_heading-600 text-3xl sm:text-left">756</h2>
+        <h5 class="text-center font-Vollkorn  italic font-light text-figure_heading-600 text-sm sm:text-left">Bicycle kilometers</h5>
       </div>
 
    
 
-      <div class="flex-col justify-center items-center ">
+      <div class="flex-col justify-center items-center  sm:flex sm:flex-col sm:justify-start sm:items-start">
         <h2 class="text-center font-Monsterrate font-bold text-figure_heading-600 text-3xl ">419</h2>
-        <h5 class="text-center font-Vollkorn  italic font-light text-[.8rem] text-figure_heading-600 max-w-3xl  ml-6">Brainstorm sessions</h5>
+        <h5 class="text-center font-Vollkorn  italic font-light text-[.8rem] text-figure_heading-600 max-w-3xl  ml-6  sm:ml-0">Brainstorm sessions</h5>
       </div>
 
   
 
-      <div class="flex-col justify-center items-center ">
-        <h2 class="text-center font-Monsterrate font-bold text-figure_heading-600 text-3xl">284</h2>
-        <h5 class="text-center font-Vollkorn  italic font-light text-figure_heading-600 text-sm max-w-xs">Video hours</h5>
+      <div class="flex-col justify-center items-center  ">
+        <h2 class="text-center font-Monsterrate font-bold text-figure_heading-600 text-3xl sm:text-left">284</h2>
+        <h5 class="text-center font-Vollkorn  italic font-light text-figure_heading-600 text-sm max-w-xs sm:text-left">Video hours</h5>
       </div>
 
   
@@ -158,17 +159,17 @@
   
       <!--service section image-->
       <div class="w-70">
-        <img src="./images/services.jpeg" alt="servies image"  class="w-70 pl-5 pr-5 pt-2 pb-2"/>
+        <img src="./images/services.jpeg" alt="servies image"  class="w-70 pl-5 pr-5 pt-2 pb-2 sm:w-[630px] h-[250px]"/>
       </div>
   
   <!--service card-->
        <!--card2-->
-       <div class="w-70  flex-col justify-center items-center mt-3 pl-5 pr-5 ">
-        <div class="flex-col justify-center  items-center bg-zinc-100 ">
+       <div class="w-70  flex-col justify-center items-center mt-3 pl-5 pr-5  sm:w-[630px]">
+        <div class="flex flex-col justify-center  items-center bg-zinc-100  sm:py-5 sm:flex  sm:justify-center sm:items-center">
           <h2 class="font-Monsterrate text-2xl pt-5 text-figure_heading-600 text-center font-bold tracking-tighter leading-7">Things <br />
             We do</h2>
           <h5 class="font-Vollkorn italic tracking-normal text-figure_heading-600 text-center pt-1">we exist to create</h5>
-          <p class="text-center font-sans max-w-xs text-sm p-2  ">
+          <p class="text-center font-sans max-w-xs text-sm p-2 sm:min-w-full sm:px-7  ">
             Focus infographic venture business model canvas gamification
             ecosystem. Business plan gamification user experience low hanging
             fruit twitter. Metrics research & development market paradigm shift
@@ -176,7 +177,7 @@
             investor alpha. Social proof lean startup alpha scrum project
             non-disclosure agreement.
           </p>
-          <a href="#"   ><button  class="h-[55px] w-40  ml-16 border-2 border-black text-[#333] text-sm font-light" >GET IN TOUCH</button></a>
+          <a href="#"   ><button  class="h-[55px] w-40   border-2 border-black text-[#333] text-sm font-light" >GET IN TOUCH</button></a>
         </div>
       </div>
       
@@ -184,14 +185,14 @@
   </section>
   <!--services section starts-->
 <section>
-  <div class="flex-col w-72 justify-center items-center ml-5 pr-2 ">
+  <div class="flex-col w-72 justify-center items-center ml-5 pr-2 sm:min-h-full ">
     
     <!--branding section-->
-    <div class="w-50  h-80 flex-col justify-center items-center mt-3 pl-5 pr-5 bg-zinc-100">
-      <div class="flex-col justify-center items-center mt-3 pl-5 pr-5">
+    <div class="w-50  h-80 flex-col justify-center items-center mt-3 pl-5 pr-5 bg-zinc-100 sm:min-w-[590px] px-24">
+      <div class="flex-col flex justify-center items-center mt-3 pl-5 pr-5">
         <img src="./images/branding1.svg" alt="" class="w-32 h-32 ml-8"/>
         <h1 class="text-service-heading text-figure_heading-600 leading-tight font-Monsterrate font-bold tracking-tighter relative bottom-2 ml-8">Branding</h1>
-        <p class="text-center text-paragraph_size text-services_paragraph-300 relative right-12 p-3  w-[300px]">
+        <p class="text-center text-paragraph_size text-services_paragraph-300 relative  p-3  w-[300px]">
           Focus infographic venture business model canvas gamification
           ecosystem. Business plan gamification user experience low hanging
           fruit twitter. Metrics research & development market paradigm
@@ -203,11 +204,11 @@
 
 
 <!--Web design section--> 
-<div class="w-50  h-80 flex-col justify-center items-center mt-3 pl-5 pr-5 bg-zinc-100">
-  <div class="flex-col justify-center items-center mt-3 pl-5 pr-5">
+<div class="w-50 sm:min-w-[590px] h-80 flex-col justify-center items-center mt-3 pl-5 pr-5 bg-zinc-100">
+  <div class=" flex flex-col justify-center items-center mt-3 pl-5 pr-5">
     <img src="./images/branding2.svg" alt="" class="w-32 h-32 ml-8"/>
     <h1 class="text-service-heading text-3xl leading-tight text-[#333] font-Monsterrate font-bold tracking-tighter relative bottom-2 ml-8">Web Design</h1>
-    <p class="text-center text-paragraph_size text-services_paragraph-300 relative right-12 p-3  w-[300px]">
+    <p class="text-center text-paragraph_size text-services_paragraph-300 relative p-3  w-[300px]">
       Focus infographic venture business model canvas gamification
       ecosystem. Business plan gamification user experience low hanging
       fruit twitter. Metrics research & development market paradigm
@@ -219,11 +220,11 @@
 
 
 <!--graphic Design section-->     
-<div class="w-50  h-80 flex-col justify-center items-center mt-3 pl-5 pr-5 bg-zinc-100">
-  <div class="flex-col justify-center items-center mt-3 pl-5 pr-5">
+<div class="w-50  h-80 flex-col justify-center items-center mt-3 pl-5 pr-5 bg-zinc-100 sm:min-w-[590px]">
+  <div class="flex-col flex justify-center items-center mt-3 pl-5 pr-5">
     <img src="./images/branding3.svg" alt="" class="w-32 h-32 ml-8"/>
     <h1 class="text-service-heading text-figure_heading-600 leading-tight font-Monsterrate font-bold whitespace-nowrap  relative bottom-1  ">Graphic Design</h1>
-    <p class="text-center text-paragraph_size text-services_paragraph-300 relative right-12 p-3  w-[300px]">
+    <p class="text-center text-paragraph_size text-services_paragraph-300 relative  p-3  w-[300px]">
       Focus infographic venture business model canvas gamification
       ecosystem. Business plan gamification user experience low hanging
       fruit twitter. Metrics research & development market paradigm
@@ -258,14 +259,14 @@
 
 </section>
     <!--portfolio-->
-    <div class="grid grid-cols-2 gap-4 p-5">
+    <div class="grid grid-cols-2 gap-4 p-5 sm:gap-5">
   <!--box1-->
-      <div class="flex flex-col justify-center items-start ">
-        <h1 class="text-service-heading leading-5 text-figure_heading-600  font-Monsterrate font-bold text-left leading-none tracking-tighter ">
+      <div class="flex flex-col justify-center items-start sm:bg-red-600 sm:w-72 sm:h-72 sm:flex sm:justify-start sm:items-start ">
+        <h1 class="text-service-heading leading-5 text-figure_heading-600  font-Monsterrate font-bold text-left ml-0 leading-none tracking-tighter sm:top-5 sm:relative">
           Latest <br />
           creations
         </h1>
-        <h5 class="font-Vollkorn italic  text-figure_heading-600 text-left text-sm relative top-3">We make beautiful things</h5>
+        <h5 class="font-Vollkorn italic  text-figure_heading-600 text-left text-sm relative top-3 sm:top-7 sm:relative">We make beautiful things</h5>
         <p class=" hidden">
           Focus infographic venture business model canvas gamification
           ecosystem. Business plan gamification user experience low hanging
@@ -275,31 +276,31 @@
       </div>
   <!--box2-->
       <div>
-        <img src="./images/pf-1.jpeg" alt="" class="w-32 h-32"/>
+        <img src="./images/pf-1.jpeg" alt="" class="w-32 h-32 sm:w-72 sm:h-72"/>
       </div>
   <!--box3-->
       <div>
-        <img src="./images/pf-2.jpeg" alt="" class="w-32 h-32"/>
+        <img src="./images/pf-2.jpeg" alt="" class="w-32 h-32 sm:w-72 sm:h-72"/>
       </div>
   <!--box4-->
       <div>
-        <img src="./images/f-3.jpeg" alt="" class="w-32 h-32"/>
+        <img src="./images/f-3.jpeg" alt="" class="w-32 h-32 sm:w-72 sm:h-72"/>
       </div>
   <!--box5-->
       <div>
-        <img src="./images/pf-8.jpg" alt="" class="w-32 h-32"/>
+        <img src="./images/pf-8.jpg" alt="" class="w-32 h-32 sm:w-72 sm:h-72"/>
       </div>
   <!--box6-->
       <div>
-        <img src="./images/pf-4.jpg" alt="" class="w-32 h-32" />
+        <img src="./images/pf-4.jpg" alt="" class="w-32 h-32 sm:w-72 sm:h-72" />
       </div>
   <!--box7-->
       <div>
-        <img src="./images/pf-5.jpg" alt="" class="w-32 h-32"/>
+        <img src="./images/pf-5.jpg" alt="" class="w-32 h-32 sm:w-72 sm:h-72"/>
       </div>
   <!--box8-->
       <div>
-        <img src="./images/pf-6.jpg" alt="" class="w-32 h-32" />
+        <img src="./images/pf-6.jpg" alt="" class="w-32 h-32 sm:w-72 sm:h-72" />
       </div>
   
     </div>
@@ -309,7 +310,7 @@
     <!--contact-->
     <section>
   
-      <div class="flex flex-col justify-center items-center"  >
+      <div class="flex flex-col justify-center items-center "  >
         <h2 class="text-service-heading text-figure_heading-600  font-Monsterrate font-bold text-center leading-none tracking-tighter ">
           Write us a letter
         </h2>
@@ -318,14 +319,14 @@
         </h5>
   
         <form 
-          class="flex flex-col "
+          class="flex flex-col  mx-10 sm:w-4/5 sm:mx-auto sm:mt-10 "
         name="email-form" 
         data-name="Email Form"
         >
 
 
           <label
-           for="name" class="font-Monsterate uppercase text-sm font-bold text-center"> Name</label>
+           for="name" class="font-Monsterate uppercase text-sm font-bold text-center sm:my-4"> Name</label>
           <input
           class="W-60 h-10 border-2 p-2 text-sm"
            type="text"
@@ -335,7 +336,7 @@
             />
  
             <label
-            for="name" class="font-Monsterate uppercase text-sm font-bold text-center"> Email Address</label>
+            for="name" class="font-Monsterate uppercase text-sm font-bold text-center sm:my-4"> Email Address</label>
            <input
            class="W-60 h-10 border-2 p-2 text-sm"
             type="text"
@@ -345,10 +346,10 @@
              />
  
              <label
-             for="name" class="font-Monsterate uppercase text-sm font-bold text-center">Your Message</label>
+             for="name" class="font-Monsterate uppercase text-sm font-bold text-center sm:my-4">Your Message</label>
            
           <textarea 
-          class="w-72 h-16 border-2 p-2 text-sm"
+          class="w-72 h-16 border-2 p-2 text-sm sm:w-auto"
            
           type="email"
           placeholder="Example Text"
@@ -373,7 +374,7 @@
 
     <section>
  
-      <footer class="bg-[#242424] w-64 mx-10 flex flex-col justify-center items-center h-auto py-5">
+      <footer class="bg-[#242424] w-64 mx-10 flex flex-col justify-center items-center h-auto py-5  sm:w-auto">
   
         <!--footer logo-->
   
